@@ -48,7 +48,7 @@ function MuiTimeline() {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-                <div className="card shadow d-flex align-items-center p-3 education-card" data-aos="fade-up" data-aos-delay={index * 700}>
+                <div className="card shadow d-flex align-items-center p-3 education-card" data-aos="fade-up" data-aos-delay={index * 500}>
                   <h6>Education: <span className='text-primary'>{edu.education}</span></h6>
                   <p className='text-success'>{edu.course}</p>
                   <p><strong>College/School:</strong> {edu.college}</p>

@@ -30,13 +30,13 @@ function Home() {
           {/* intro name */}
           <h4 className="intro">Hi, i'm <span className="introName">varun ravula</span></h4>
           {/* intro role */}
-          <p className="introRole"><ReactTyped strings={["Full Stack Developer","Frontend Developer","Backend Developer","MERN Stack Developer"]} typeSpeed={40} backSpeed={50}></ReactTyped></p>
+          <p className="introRole"><ReactTyped strings={["Full Stack Developer","Frontend Developer","Backend Developer","MERN Stack Developer"]} typeSpeed={40} backSpeed={50} loop></ReactTyped></p>
           {/* intro para */}
           <p className="introPara" data-aos="fade-up" data-aos-delay="400">Passionate about creating innovative web solutions with modern technologies. I specialize in React, Node.js, and cloud technologies to build scalable applications that make a difference.
           </p>
           <div>
             <a href="#projects"><button className="btn btn-warning view-my-work-btn p-2 me-2 text-capitalize mb-3"><FaRegEye /> view my work</button></a>
-            <a href="/varun_resume.pdf" download={"varun_resume.pdf"}><button className='btn btn-danger p-2 download-resume-btn mb-3'><RiDownloadFill/> Download Resume</button></a>
+            <a href={`${import.meta.env.BASE_URL}varun_resume.pdf`} download><button className='btn btn-danger p-2 download-resume-btn mb-3'><RiDownloadFill/> Download Resume</button></a>
           </div>
         </div>
         </Col>

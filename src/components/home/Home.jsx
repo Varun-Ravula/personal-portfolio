@@ -36,7 +36,7 @@ function Home() {
           </p>
           <div>
             <a href="#projects"><button className="btn btn-warning view-my-work-btn p-2 me-2 text-capitalize mb-3"><FaRegEye /> view my work</button></a>
-            <a href={`${import.meta.env.BASE_URL}varun_resume.pdf`} download><button className='btn btn-danger p-2 download-resume-btn mb-3'><RiDownloadFill/> Download Resume</button></a>
+            <a href={`${import.meta.env.BASE_URL}Varun_Ravula_Resume.pdf`} download><button className='btn btn-danger p-2 download-resume-btn mb-3'><RiDownloadFill/> Download Resume</button></a>
           </div>
         </div>
         </Col>

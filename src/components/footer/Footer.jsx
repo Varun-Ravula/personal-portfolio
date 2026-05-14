@@ -27,7 +27,7 @@ function Footer() {
             <div className='footer-section'>
                 <div className="p-3">
                     <p>Made with <IoMdHeart className='text-danger' /> by varun sandesh</p>
-                    <p>@2025 All rights reserved.</p>
+                    <p>@2025</p>
                 </div>
                 <div className='p-3 social-links'>
                     {socialLinks.map((socialLinks, index) =>

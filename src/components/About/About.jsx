@@ -58,11 +58,11 @@ function About() {
                     <Col sm={6} className='list-unstyled'>
                       <li><strong>Name:</strong> Ravula Varun Sandesh</li>
                       <li><strong>Age:</strong> 23</li>
-                      <li><strong>Experience:</strong> Fresher</li>
+                      <li><strong>Experience:</strong> 9 months</li>
                     </Col>
                     <Col sm={6} className='list-unstyled'>
                       <li><strong>Location:</strong> Hyderabad,Telangana,India</li>
-                      <li><strong>Email:</strong> varunravula66@gmail.com</li>
+                      <li><strong>Email:</strong> varunravula9949@gmail.com</li>
                     </Col>
                   </Row>
                 </div>

@@ -10,6 +10,7 @@ import { ImShare } from "react-icons/im";
 import project1_1 from '../../assets/project-1.1.png';
 import project1_2 from '../../assets/project-1.2.png';
 import project1_3 from '../../assets/project-1.3.png';
+import project1_4 from '../../assets/project-1.4.png';
 
 import project2_1 from '../../assets/project-2.1.png';
 import project2_2 from '../../assets/project-2.2.png';
@@ -29,15 +30,15 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'AuthApp – Secure User Authentication with JWT & MongoDB',
-      description: 'A full-stack authentication system using JWT, bcrypt, and MongoDB. Users can securely register, login, and access protected routes.',
-      image: project1_3,
-      technologies: ['React', 'Bootstrap', 'Node.js', 'Express.js', 'MongoDB'],
-      githubUrl: 'https://github.com/Varun-Ravula/Auth-App',
-      liveUrl: '',
+      title: 'AuthMart – Secure Online Shopping Platform',
+      description: 'A comprehensive full-stack e-commerce platform featuring secure user authentication, product catalog, dynamic shopping cart, Stripe payment integration.',
+      image: project1_1,
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Stripe'],
+      githubUrl: 'https://github.com/Varun-Ravula/Auth-Mart',
+      liveUrl: 'https://auth-mart.vercel.app/',
       category: 'Full Stack',
-      longDescription: 'A comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, payment integration with Stripe, order management, and admin dashboard. Built with modern technologies and following best practices.',
-      multipleImages: [project1_1, project1_2, project1_3]
+      longDescription: 'A comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, payment integration with Stripe, order management. Built with modern technologies and following best practices.',
+      multipleImages: [project1_1, project1_2, project1_3, project1_4]
     },
     {
       id: 2,
